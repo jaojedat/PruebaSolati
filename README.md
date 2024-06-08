@@ -57,18 +57,20 @@ sql
 - Método: POST
 - URL: http://localhost/api/api.php
 - Body: (raw, JSON)
-{
+```{
     "nombre": "Nuevo Producto",
     "precio": 99.99
 }
+```
 ## Actualizar un Producto Existente
 - Método: PUT
 - URL: http://localhost/api/api.php/{id}
 - Body: (raw, JSON)
-  {
+```{
     "nombre": "Producto Actualizado",
     "precio": 149.99
 }
+```
 
 ## Eliminar un Producto
 - Método: DELETE
