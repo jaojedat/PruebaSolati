@@ -29,12 +29,13 @@ api.php
 
 2. Ejecuta la siguiente consulta SQL para crear la tabla `productos`:
 sql
- '  CREATE TABLE productos (
+ ```sql
+   CREATE TABLE productos (
        id INT AUTO_INCREMENT PRIMARY KEY,
        nombre VARCHAR(100) NOT NULL,
        precio DECIMAL(10, 2) NOT NULL
-   ); '
-
+   ); 
+ ```
 ## Clona este repositorio en tu directorio de proyectos (por ejemplo, C:\xampp\htdocs\api si estás usando XAMPP):
 - https://github.com/jaojedat/PruebaSolati.git
 
